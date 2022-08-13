@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>final-project JavaScript</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+
+    <!------google-font----->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+
+     <!-- Font-Awesome CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+   <!---Bootstrap cdn--> 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+
+
+
+</head>
+<body>
+    <!-----Nav Bar------>
+    <div id="top-bar">
+        <div class="logo">
+           <a><h4><span>SHOP</span>LANE</h4></a>
+        </div>
+      
+        <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#clothing">Clothings</a></li>
+            <li><a href="#accessories">Accessories</a></li>
+        </ul>
+        <div class="icons">
+            <i class="fa fa-search"></i>
+            <div class="cart" id="cartIcon">
+                <a href="./checkout_page.html">
+                    <i class="fa fa-shopping-cart">
+                        <span id="count">0</span>
+                    </i>
+                </a>
+            </div>
+                
+            <i class="fa fa-user-circle-o"></i>
+            <div class="burger ">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        
+        </div>
+    </div>
+
+    <!------Image Slider------>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+                <img src="https://shoplane.netlify.app/img/img1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://shoplane.netlify.app/img/img2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://shoplane.netlify.app/img/img3.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://shoplane.netlify.app/img/img4.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" >
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+        </div>
+      
+    </div>
+
+
+    <!------section cloth------>
+    <section id="clothing">
+
+        <h2 class="section-heading">Clothing for Men and Women</h2>
+      
+    
+      <!-- Cards Conatiner -->
+        <div class="card-conatiner" id="clothingCards">
+            <div id="1" class="card">
+                <a href="product_id_1.html">
+                    <div class="img">
+                        <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7579188/2018/11/5/08a7b230-ee8f-46c0-a945-4e835a3c01c01541402833619-United-Colors-of-Benetton-Men-Sweatshirts-1271541402833444-1.jpg">
+                    </div>
+                    <div class="details">
+                        <h3>Men Navy Blue Solid Sweatshirt</h3>
+                        <h4>United Colors of Benetton</h4>
+                        <h5>Rs 2599</h5>
+                    </div>
+    
+                </a>
+            </div>
+    
+            <div class="card" id="2">
+                <a href="product_2.html">
+                    <div class="img">
+                        <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2060340/2017/9/14/11505387708574-Puma-Men-Black-Solid-Sporty-Jacket-371505387708496-1.jpg">
+                    </div>
+                    <div class="details">
+                        <h3>Men Black MAMGP T7 Sweat Sporty Jacket</h3>
+                        <h4>Puma</h4>
+                        <h5>Rs 7999</h5>
+                    </div>
+                </a>
+            
+            </div>
+            <div class="card" id="3">
+                <a href="product_3.html">
+                    <div class="img">
+                        <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/productimage/2018/9/19/b1373b00-37d4-41a0-a908-5d742a68d3661537343756229-1.jpg">
+                    </div>
+                    <div class="details">
+                        <h3>Men Black Action Parkview Lifestyle Shoes</h3>
+                        <h4>Hush Puppies</h4>
+                        <h5>Rs 6999</h5>
+                    </div>
+    
+                </a>
+            </div>
+            <div class="card" id="4">
+                <a href="product_4.html">
+                    <div class="img">
+                        <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3854721/2018/3/12/11520844673915-BARESKIN-Women-Black-Solid-Lightweight-Leather-Jacket-7761520844673718-1.jpg">
+                    </div>
+                    <div class="details">
+                        <h3>Women Black Solid Lightweight Leather Jacket</h3>
+                        <h4>BARESKIN</h4>
+                        <h5>Rs 9999</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="card" id="5">
+               <a href="product_5.html">
+                    <div class="img">
+                        <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/5649908/2018/5/10/6bfe80cd-2f55-42bc-aa7f-e0d6c9e2ac531525936414747-SASSAFRAS-Women-Blue-Solid-Shirt-Dress-3831525936414532-1.jpg"/>
+                    </div>
+                    <div class="details">
+                        <h3>Women Blue Solid Shirt Dress</h3>
+                        <h4>SASSAFRAS</h4>
+                        <h5>Rs 2500</h5>
+                    </div>
+                    
+                </a>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="accessories">
+
+        <h2 class="section-heading">Accessories for Men and Women</h2>
+      
+    
+      <!-- Cards Conatiner -->
+        <div class="card-conatiner" id="accessoriesCards">
+            <div class="card" id="6">
+                <a href="product_6.html">
+                    <div class="img">
+                        <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/9803247/2019/5/27/624dac60-4c42-4902-bba1-30a51cc7f43c1558948536543-Apple-Unisex-Smart-Watches-1441558948536225-1.jpg">
+                    </div>
+                    <div class="details">
+                        <h3>Unisex Silver-Toned Series 3 Smart Watch</h3>
+                        <h4>Apple</h4>
+                        <h5>Rs 31999</h5>
+                    </div>
+                </a>
+            </div>
+      
+            <div class="card" id="7">
+                <a href="product_7.html">
+                    <div class="img">
+                        <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/productimage/2019/2/23/dc05b5e5-aa82-493e-bf0b-0c309baf21021550920383101-1.jpg">
+                    </div>
+                    <div class="details">
+                        <h3>Unisex Black & Green Reflex 2.0 Smart Band</h3>
+                        <h4>Fastrack</h4>
+                        <h5>Rs 1999</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="card" id="8">
+                <a href="product_8.html">
+                    <div class="img">
+                        <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/10122083/2019/6/24/e533a691-3908-41b0-8307-1928a37d4ec41561362162650-Samsung-Galaxy-Fit-4801561362161527-1.jpg">
+                    </div>
+                    <div class="details">
+                        <h3>Unisex Black Galaxy Fit Fitness Band</h3>
+                        <h4>Samsung</h4>
+                        <h5>Rs 9990</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="card" id="9">
+                <a href="product_9.html"></a>
+                    <div class="img">
+                        <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/8593217/2019/4/9/de2c21f3-6731-4c29-9369-692a486a1b8c1554802772926-Samsung-Gear-IconX-Black-Cord-free-Fitness-Earbuds-256155480-1.jpg">
+                    </div>
+                    <div class="details">
+                        <h3>Gear IconX Black Cord-free Fitness Earbuds</h3>
+                        <h4>Samsung</h4>
+                        <h5>Rs 13990</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="card" id="10">
+                <a href="product_10.html">
+                    <div class="img">
+                        <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/9803279/2019/5/27/6661d579-12ae-456b-b8f2-e78e5256a99c1558948436173-Apple-AirPods-with-Charging-Case-2nd-Gen-White-3831558948435-1.jpg">
+                    </div>
+                    <div class="details">
+                        <h3>White 2nd Gen AirPods with Charging Case</h3>
+                        <h4>Apple</h4>
+                        <h5>Rs 14999</h5>
+                    </div> 
+      
+                </a>
+            </div>
+        </div>
+    </section>
+
+    
+
+    
+    <!-- Section Heading -->
+    
+    <!-- FOOTER SECTION START -->
+    <footer>
+        <ul class="online-store">
+            <li><h3>Online Store</h3></li>
+            <li><a href="#">Men Clothing</a></li>
+            <li><a href="#">Women Clothing</a></li>
+            <li><a href="#">Men Accessories</a></li>
+            <li><a href="#">Women Accessories</a></li>
+        </ul>
+        <ul class="helpful-links">
+            <li><h3>Helpful Links</h3></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <ul class="patners">
+            <li><h3>Patners</h3></li>
+            <li><a href="#">Zara</a></li>
+            <li><a href="#">Pantaloons</a></li>
+            <li><a href="#">Levis</a></li>
+            <li><a href="#">Ucb</a></li>
+            <li><a href="#">+ Many More</a></li>
+        </ul>
+        <ul class="address">
+            <li><h3>Address</h3></li>
+            <li>Building 101</li>
+            <li>Central Avenue</li>
+            <li>LA - 902722</li>
+            <li>United States</li>
+        </ul>
+    </footer>
+
+    
+
+
+
+    
+
+  <script src="script.js" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+  
+</body>
+</html>
